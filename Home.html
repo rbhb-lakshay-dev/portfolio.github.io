@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      html {
+        width: 100vw;
+        height: 100px;
+      }
+      body {
+        background-color: #dddfdf;
+      }
+      #img1 {
+        position: absolute;
+        max-width: 30rem;
+        max-height: 28rem;
+        border-radius: 50%;
+        top: 9rem;
+        left: 18rem;
+        animation-name: pro;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pro {
+        0% {
+          border-radius: 2px solid rgba(255, 0, 0, 0.921);
+          box-shadow: 0px 0px 4rem 1rem rgba(255, 0, 0, 0.921);
+        }
+        20% {
+          border-radius: 2px solid gold;
+          box-shadow: 0px 0px 4rem 1rem rgb(190, 162, 3);
+        }
+        40% {
+          border-radius: 2px solid rgb(221, 180, 105);
+          box-shadow: 0px 0px 4rem 1rem rgb(221, 180, 105);
+        }
+        60% {
+          border-radius: 2px solid rgb(70, 61, 251);
+          box-shadow: 0px 0px 4rem 1rem rgb(70, 61, 251);
+        }
+        80% {
+          border-radius: 2px solid rgb(106, 8, 13);
+          box-shadow: 0px 0px 4rem 1rem rgba(106, 8, 13);
+        }
+        100% {
+          border-radius: 2px solid rgb(9, 174, 64);
+          box-shadow: 0px 0px 4rem 1rem rgb(119, 255, 65);
+        }
+      }
+      #box1 {
+        line-height: 3rem;
+      }
+      .sp {
+        position: absolute;
+        left: 54rem;
+        top: 12rem;
+        font-weight: bold;
+      }
+      #span1 {
+        font-size: 6rem;
+        text-shadow: 0px 0px 2rem;
+      }
+      #span2 {
+        position: absolute;
+        top: 18rem;
+        font-size: 4em;
+        text-shadow: 0px 0px 2rem;
+      }
+      #span3 {
+        top: 26rem;
+        position: absolute;
+        font-size: 2.5em;
+        text-shadow: 0px 0px 2rem;
+      }
+      #h1 {
+        top: 10rem;
+        left: 55rem;
+        font-size: 5rem;
+        line-height: 4rem;
+        position: absolute;
+      }
+      #h3 {
+        top: 15rem;
+        left: 55rem;
+        font-size: 3rem;
+        position: relative;
+        line-height: 4rem;
+      }
+      #h32 {
+        top: 20rem;
+        left: 55rem;
+        font-size: 2rem;
+        position: absolute;
+        line-height: 4rem;
+      }
+      #span4 {
+        top: 44rem;
+        left: 25rem;
+        position: absolute;
+        font-size: 3rem;
+        background-color: #ccd3d4;
+      }
+      #htmldiv {
+        position: absolute;
+        top: 60rem;
+        left: 25rem;
+        font-size: 2rem;
+      }
+      #box2 {
+        position: absolute;
+        width: 35rem;
+        height: 1rem;
+        background-color: rgb(244 88 0);
+        top: 60.5rem;
+        left: 36rem;
+        border-radius: 5rem;
+        box-shadow: 0px 0px 35px 6px rgb(244 88 0);
+        text-align: center;
+      }
+      #box3 {
+        position: absolute;
+        width: 30rem;
+        height: 1rem;
+        background-color: rgb(69 150 182);
+        top: 65.5rem;
+        left: 36rem;
+        border-radius: 5rem;
+        box-shadow: 0px 0px 35px 6px rgb(69 150 182);
+        text-align: center;
+      }
+      #box4 {
+        position: absolute;
+        width: 40rem;
+        height: 1rem;
+        background-color: rgb(225 120 0);
+        top: 70.5rem;
+        left: 36rem;
+        border-radius: 5rem;
+        box-shadow: 0px 0px 35px 6px rgb(225 120 0);
+        text-align: center;
+      }
+      #cssdiv {
+        position: absolute;
+        top: 65rem;
+        left: 25rem;
+        font-size: 2rem;
+      }
+      #cdiv {
+        position: absolute;
+        top: 70rem;
+        left: 25rem;
+        font-size: 2rem;
+      }
+      #div2 > img {
+        position: absolute;
+        top: 42rem;
+        height: 35rem;
+        width: 94rem;
+        opacity: 0.5;
+        background-attachment: fixed;
+        border-radius: 2rem;
+        box-shadow: 0px 0px 2rem 2rem rgb(135, 74, 4);
+      }
+      #edu {
+        top: 80rem;
+        position: absolute;
+        font-size: 3rem;
+        background-color: chartreuse;
+      }
+      #edu > img {
+        position: absolute;
+        height: 42rem;
+        width: 94rem;
+        opacity: 0.75;
+        background-attachment: fixed;
+        border-radius: 2rem;
+        box-shadow: 0px 0px 2rem 2rem rgb(4, 4, 135);
+      }
+      #span5 {
+        position: absolute;
+        left: 40rem;
+        top: 1rem;
+        font-size: 2rem;
+        background-color: #ccd3d4;
+        box-shadow: 0px 0px 2rem 1rem lightgoldenrodyellow;
+      }
+      #p1 {
+        top: 4rem;
+        position: absolute;
+        width: 9rem;
+        left: 41rem;
+        font-size: 2rem;
+        box-shadow: 0px 0px 2rem lightpink;
+      }
+      #p2 {
+        top: 16rem;
+        position: absolute;
+        width: 4rem;
+        left: 43rem;
+        font-size: 2rem;
+        box-shadow: 0px 0px 2rem lightpink;
+      }
+      #p3 {
+        top: 26rem;
+        position: absolute;
+        width: 4rem;
+        left: 43rem;
+        font-size: 2rem;
+        box-shadow: 0px 0px 2rem lightpink;
+      }
+      #span6 {
+        position: absolute;
+        top: 4rem;
+        left: 41.5rem;
+        font-size: 2rem;
+        background-color: #ccd3d4;
+        box-shadow: 0px 0px 2rem 1rem #d2fae2;
+      }
+      #form {
+        position: absolute;
+        top: 128rem;
+        text-shadow: 0px 0px 2rem orange;
+      }
+      #form > img {
+        height: 40rem;
+        position: absolute;
+        top: 0rem;
+        border-radius: 2rem;
+        width: 94rem;
+        min-width: 40rem;
+        max-width: 100rem;
+        opacity: 0.7;
+        box-shadow: 0px 0px 2rem 2rem rgb(65, 21, 107);
+      }
+      .form {
+        background: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="Portfolio_image.jpg" alt="Image Loading Error" id="img1" />
+    <div id="box1">
+      <div class="sp" id="span1">Hi!</div>
+      <div class="sp" id="span2">A bit about me</div>
+      <div class="sp" id="span3">I am a Frontend Developer and Coder</div>
+    </div>
+    <div id="div2">
+      <img src="img2.jpg" alt="IMAGE NOT FOUND" />
+      <span id="span4">MY KNOWLEDGE LEVEL IN SOFTWARE</span>
+      <div id="htmldiv">HTML</div>
+      <div id="box2">75%</div>
+      <div id="cssdiv">CSS</div>
+      <div id="box3">65%</div>
+      <div id="cdiv">C Language</div>
+      <div id="box4">85%</div>
+    </div>
+    <div id="edu">
+      <img src="img5.jpg" alt="IMAGE NOT FOUND" />
+      <span id="span5">EDUCATION</span>
+      <p id="p1">2021-2025</p>
+      <h3 style="top: 7rem; position: absolute; font-size: 2rem">Course:</h3>
+      <h4
+        style="
+          top: 7.5rem;
+          position: absolute;
+          font-size: 1.5rem;
+          left: 12rem;
+          width: 30rem;
+        "
+      >
+        BACHELOR OF TECHNOLOGY
+      </h4>
+      <h3 style="position: absolute; top: 10rem; font-size: 2rem">Branch:</h3>
+      <h4
+        style="
+          position: absolute;
+          top: 10.5rem;
+          font-size: 1.5rem;
+          width: 42rem;
+          left: 12rem;
+        "
+      >
+        COMPUTER SCIENCE AND ENGINEERING
+      </h4>
+      <h3 style="position: absolute; top: 13rem; font-size: 2rem">College:</h3>
+      <h4
+        style="
+          position: absolute;
+          top: 13.5rem;
+          font-size: 1.5rem;
+          width: 44rem;
+          left: 12rem;
+        "
+      >
+        MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY
+      </h4>
+      <p id="p2">2021</p>
+      <h4
+        style="top: 20rem; position: absolute; font-size: 1.5rem; width: 60rem"
+      >
+        SENIOR SECONDARY SCHOOL CERTIFICATE EXAMINATION
+      </h4>
+      <h3 style="position: absolute; top: 23rem; font-size: 2rem">School:</h3>
+      <h4
+        style="
+          top: 23.5rem;
+          position: absolute;
+          font-size: 1.5rem;
+          width: 60rem;
+          left: 12rem;
+        "
+      >
+        DEWAN PUBLIC SCHOOL
+      </h4>
+      <p id="p3">2019</p>
+      <h4
+        style="top: 30rem; position: absolute; font-size: 1.5rem; width: 60rem"
+      >
+        SECONDARY SCHOOL CERTIFICATE EXAMINATION
+      </h4>
+      <h3 style="position: absolute; top: 33rem; font-size: 2rem">School:</h3>
+      <h4
+        style="
+          top: 33.5rem;
+          position: absolute;
+          font-size: 1.5rem;
+          width: 60rem;
+          left: 12rem;
+        "
+      >
+        DEWAN PUBLIC SCHOOL
+      </h4>
+    </div>
+    <div id="form">
+      <img src="img6.jpg" alt="IMAGE NOT FOUND" />
+      <span id="span6">CONTACT</span>
+      <form action=""></form>
+      <div>
+        <h2 style="top: 8rem; position: absolute; width: 13rem">
+          Looking forward to hearing from you
+        </h2>
+        <label style="position: absolute; top: 9rem; left: 25rem"
+          ><strong
+            >First Name*
+            <input class="form" type="text" name="custName" required /></strong
+        ></label>
+        <label style="position: absolute; top: 9rem; left: 37rem"
+          ><strong
+            >Last Name
+            <input class="form" type="text" name="custName" required /></strong
+        ></label>
+      </div>
+      <br />
+      <div>
+        <label style="position: absolute; top: 15rem; left: 25rem"
+          ><strong
+            >Email*
+            <input
+              class="form"
+              type="email"
+              name="custEmail"
+              required /></strong
+        ></label>
+        <label style="position: absolute; top: 15rem; left: 37rem"
+          ><strong
+            >Subject
+            <input
+              class="form"
+              type="email"
+              name="custEmail"
+              required /></strong
+        ></label>
+        <div>
+          <h2 style="top: 14rem; position: absolute">Phone</h2>
+          <p style="position: absolute; top: 16rem">+916397368198</p>
+        </div>
+        <div>
+          <label style="position: absolute; top: 20rem; left: 25rem"
+            ><strong>Message <br /></strong>
+            <textarea
+              name="custCurrenAdd"
+              id="Current Address"
+              cols="30"
+              rows="10"
+              style="color: darkblue"
+              class="form"
+            ></textarea>
+          </label>
+        </div>
+        <br />
+      </div>
+    </div>
+  </body>
+</html>
